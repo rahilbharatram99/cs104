@@ -1,0 +1,70 @@
+Review Material and Programming Advice
+Part A
+1 Acceptable
+2 Not Acceptable
+3 Not Acceptable
+4 Acceptable
+5 Not Acceptable
+6 Not Acceptable
+7 Not Acceptable
+8 Acceptable
+
+Part B
+Emacs, Elipse, Visual studio, Sublime
+
+Part C
+Each student has 4 late days of which only 2 can be used per HW
+
+Part D
+Use the normal submission system on the course, and start the next assignment sooner
+
+2 Git Quiz
+Part A
+Terminal
+
+Part B
+1. 
+git add hw1q2b.cpp
+git commit -m “something here”
+//you can add git push as well to upload
+
+2. git log
+
+Part C
+Asks for a message
+
+3 Rational Numbers 
+1. Yes, it can be implemented as a member function of the class int 
+2. Yes, it can be implemented as a non-member friend function
+3. No, it cannot be implemented as a non-member, non-friend function
+
+4 Reversi 
+1. Because square is a data type within the board class
+2. Board
+
+5 Constructors and Deconstructors
+a
+in the default and initializing constructor
+in the default and initializing constructor
+Record
+in the destructor
+in the destructor
+//last two statements only happen when program ends
+
+b 
+In the copy constructor
+In the copy constructor
+Record
+in the destructor
+in the destructor
+//destructor only called when program ends
+
+C
+Wrapper::Wrapper(const Rational& major, const Rational& overall)
+{
+	r.major_ = major;
+	r.overall_ = overall;
+}
+
+
+

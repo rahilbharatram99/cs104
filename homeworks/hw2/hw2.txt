@@ -1,0 +1,53 @@
+Homework Answers
+1 Git Quiz
+(a) The file is unmodified.
+(b) README.md would be modified while fun_problem.txt would be untracked
+(c) Both the files would be staged and ready to be committed
+(d) Both files will be modified
+(e) README.md would be staged while fun_problem.txt would be untracked
+(f) Two versions of the file would exist. The first would be the previously, unedited version of the file waiting to be committed. The second would be the edited, modified version of the file waiting to be added to be committed. 
+
+2 ADT's
+(1) A map of ints and strings where the ints(track number) would be the key and the strings(name of songs) would be the values. This would be because the track number would be unique and no specific ordering between key and value pairs.
+(2) A map of ints and strings where the ints(step number) would be the key and the strings(text of instructions) would be the values. This is because the step numbers would be unique 
+(3) A set (strings, with names of programs) would be able to hold the data as a program does not need to be mentioned more than once. The name of the program would serve as the key as well. 
+(4) A map of ints and strings where the ints(channel number) would be the key while the strings(name of the station) would be the value. It could possibly also be the other way around as the names are also unique and the channels could signify a specific frequency value. 
+
+3 Runtime Analysis
+(a) 
+Outer loop: from 0 to root(n) -- O(n^0.5)
+Inner loop: from 0 to n, where n is outer-loop limit -- O(n)
+Therefore, O(n^1.5)
+
+(b) 
+i loop runs n times
+j loop run n times
+If statement is true n times
+m loop runs log(n) times
+Therefore: O(n^2 + log(n)) = O(n^2)
+
+(c) 
+First i loop runs n times
+Insert statement runs in log(n)
+Therefore: O(nlog(n))
+
+Second i loop runs n times
+Find runs in log(n)
+Assume worst case and if statement always executes
+While loop runs in log(n)
+Therefore: 2nlogn = O(n)
+
+(d) 
+i loop runs in O(n)
+If statement executes every log1.5(n) times
+For loop runs in the same O
+n + 2log1.5(n)) == O(n)
+
+
+
+
+
+
+
+
+
